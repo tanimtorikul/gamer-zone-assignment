@@ -45,6 +45,12 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.colored-text-secondary{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .logo-colored-text{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
@@ -133,9 +139,45 @@ a{
     margin-top: 3rem;
     justify-content: center;
  }
- .video img{
-    border-radius: 16px;
- }
+
  .video-desc{
     margin-top: 1.5rem;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;  
  }
+ .video-img{
+    position: relative;
+    
+ }
+ .video-img img{
+    border-radius: 16px;
+ }
+ .video-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency as needed */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .video-img:hover .overlay {
+    opacity: 1;
+  }
+  .video-img .overlay i, .watch-now-text  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+  }
+  .watch-now-text{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2.8rem;
+  }
