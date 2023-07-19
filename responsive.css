@@ -1,0 +1,25 @@
+@media screen and (max-width:576px) {
+    .navbar-container, .videos-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+     .banner-container{
+        flex-direction: column-reverse;
+     }
+     .funny-videos-title{
+        font-size: 2rem;
+     }
+        .video-img{
+            display: flex;
+            justify-content: center;
+    }
+     .video-img .overlay {
+        border-radius: 20px;
+      }
+     .video-desc {
+        text-align: center;
+      }
+}
