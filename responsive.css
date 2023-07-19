@@ -22,4 +22,18 @@
      .video-desc {
         text-align: center;
       }
+      .play-game-container{
+        flex-direction: column-reverse;
+        position: relative;
+      }
+      
+      .game-another-img {
+       width: 300px;
+       height: 50%;
+      }
+
+      .footer-link, .icon-link, .more-footer-link{
+        flex-direction: column;
+      }
+      
 }
