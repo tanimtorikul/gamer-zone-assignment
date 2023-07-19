@@ -39,19 +39,23 @@
   }
 
   .play-game-title {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
   }
 
   .play-game-container {
     flex-direction: column-reverse;
     margin-bottom: 50px;
+    gap: 50px;
   }
 
   .main-game-img {
-    padding: 30px;
+
+    padding: 0px 30px;
     width: 90%;
   }
-
+  .game-content{
+    padding: 20px;
+  }
 
   .game-another-img {
     width: 40%;
@@ -94,6 +98,7 @@
 
 
 
+/* medium large device */
 
 
 
