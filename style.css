@@ -44,9 +44,11 @@ a {
   text-transform: uppercase;
   margin-left: 10px;
 }
-.buttons{
+
+.buttons {
   display: flex;
 }
+
 .colored-text-primary {
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
   background-clip: text;
@@ -190,12 +192,16 @@ a {
   display: inline-block;
 }
 
+.video-img img {
+  border: 3px solid transparent;
+}
+
 .video-img:hover img {
   border-radius: 16px;
   display: block;
   height: 100%;
   filter: brightness(50%);
-  border: 5px solid #e65218;
+  border-color: #e65218;
 }
 
 .video-img .overlay {
@@ -237,13 +243,16 @@ a {
   align-items: center;
   position: relative;
 }
+
 .game-content {
   width: 40%;
 }
-.game-img-container{
+
+.game-img-container {
   display: flex;
   justify-content: center;
 }
+
 .main-game-img {
   width: 100%;
 }
@@ -254,14 +263,17 @@ a {
   top: 50%;
   left: 35%;
 }
-.game-another-img img{
+
+.game-another-img img {
   width: 100%;
 }
+
 .play-game-title {
   font-size: 3rem;
   font-weight: 700;
   line-height: 60px;
 }
+
 .play-game-desc {
   color: #534C64;
   font-size: 1.1rem;
@@ -283,7 +295,7 @@ a {
   display: flex;
   align-items: center;
   flex-basis: calc(20% - 1rem);
-  gap: 16px;
+  gap: 1rem;
   border: 3px solid transparent;
   border-radius: 50px;
   background: #FFF;
@@ -309,7 +321,7 @@ a {
 .footer-container {
   margin-top: 6rem;
   background: #0B0223;
-  padding: 6rem;
+  padding: 5rem;
 }
 
 .footer-logo {
@@ -326,59 +338,42 @@ a {
 }
 
 .footer-links {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  gap: 3.75rem;
-  align-items: center;
-}
-
-.footer-link {
-  display: flex;
-  gap: 3.75rem;
-}
-
-.footer-link a {
-  color: #FFF;
-  text-align: center;
-  font-size: 1.1rem;
+  font-size: 18px;
   font-weight: 600;
-}
-
-.icon-links {
-  margin-top: 60px;
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
-}
-
-.icon-link {
-  display: flex;
-  gap: 2.5rem;
-}
-
-.icon-link a {
-  color: #FFF;
-  font-size: 2rem;
-}
-
-.more-footer-links {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  gap: 3.75rem;
   align-items: center;
+  gap: 3.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.more-footer-link {
+.footer-links a {
+  color: #FFF;
+}
+
+.footer-icon {
+  color: #FFF;
   display: flex;
-  gap: 3.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
-.more-footer-link a {
+.footer-another-links {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.footer-another-links a {
   color: rgba(255, 255, 255, 0.60);
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .footer-desc {
