@@ -44,6 +44,7 @@
 
   .play-game-container {
     flex-direction: column-reverse;
+    margin-bottom: 50px;
   }
 
   .main-game-img {
@@ -65,6 +66,13 @@
   .category {
     flex-basis: calc(33%-1rem);
   
+  }
+  .category img{
+   width: auto;
+  }
+  .game-title{
+    font-size: .5rem;
+    font-weight: 500;
   }
   .footer-links{
     display: grid;
