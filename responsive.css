@@ -17,8 +17,7 @@
   }
 
   .videos-container {
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
+  flex-direction: column;
   }
 
   .video-img {
@@ -105,10 +104,10 @@
   }
 
   .videos-container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
-
   .play-game-container {
     padding-inline: 30px;
   }
