@@ -353,7 +353,6 @@ a {
 }
 
 .footer-icon {
-  color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +360,9 @@ a {
   font-size: 2rem;
   margin-bottom: 3rem;
 }
-
+.footer-icon a{
+  color: #FFF;
+}
 .footer-another-links {
   font-size: 18px;
   font-weight: 600;
