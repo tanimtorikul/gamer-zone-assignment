@@ -12,7 +12,10 @@
   .banner-container {
     flex-direction: column-reverse;
   }
-
+  .banner-img img{
+    padding-inline: 20px;
+    width: 100%;
+  }
   .funny-videos-title {
     font-size: 2rem;
   }
