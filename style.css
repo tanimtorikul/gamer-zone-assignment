@@ -254,7 +254,7 @@ a {
 }
 
 .main-game-img {
-  width: 100%;
+  width: 80%;
 }
 
 .game-another-img {
@@ -360,9 +360,11 @@ a {
   font-size: 2rem;
   margin-bottom: 3rem;
 }
-.footer-icon a{
+
+.footer-icon a {
   color: #FFF;
 }
+
 .footer-another-links {
   font-size: 18px;
   font-weight: 600;
