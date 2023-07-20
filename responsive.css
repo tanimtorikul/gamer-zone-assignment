@@ -8,7 +8,9 @@
     flex-direction: column;
     margin-top: 1rem;
   }
-
+  .banner-content{
+    background-size: cover;
+  }
   .banner-container {
     flex-direction: column-reverse;
   }
@@ -114,7 +116,9 @@
   .banner-container {
     flex-direction: column-reverse;
   }
-
+  .banner-content{
+    background-size: cover;
+  }
   .videos-container {
     gap: 0px;
   }
@@ -160,6 +164,7 @@
 
   .banner-content {
     padding: 0px;
+    background-size: cover;
   }
   .banner-heading{
     font-size: 4rem;
