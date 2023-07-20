@@ -8,16 +8,20 @@
     flex-direction: column;
     margin-top: 1rem;
   }
-  .banner-content{
-    background-size: cover;
-  }
+  
   .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-img img{
+
+  .banner-heading {
+    font-size: 5rem;
+  }
+
+  .banner-img img {
     padding-inline: 20px;
     width: 100%;
   }
+
   .funny-videos-title {
     font-size: 2rem;
   }
@@ -116,9 +120,11 @@
   .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-content{
+
+  .banner-content {
     background-size: cover;
   }
+
   .videos-container {
     gap: 0px;
   }
@@ -164,11 +170,13 @@
 
   .banner-content {
     padding: 0px;
-    background-size: cover;
+    background-size: contain;
   }
-  .banner-heading{
+
+  .banner-heading {
     font-size: 4rem;
   }
+
   /* .banner-img img {
     width: 600px;
     height: 300px;
